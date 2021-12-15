@@ -1,0 +1,469 @@
+@media (min-width:1600px) and (max-width:2560px) {
+    .z-index{
+        margin:0 25em;
+        width:70vw;
+    }
+    .main_page{
+        margin:3em 0;
+        .page-1, .page-2, .page-3{
+            .page1-para, .page2-para, .page3-para{
+                margin:0 0 3em 10em;
+            }
+            .para1, .para2, .para3{
+                width:50%;
+                margin:0 35em;
+                p{
+                    background-color: white;
+                    margin:-.6em 0;
+                    padding:1.5em
+                }
+            }
+        }
+    }
+    .images{
+        width: 75vw;
+        margin: 0 22em;
+    }
+}
+
+@media (min-width:1100px) and (max-width:1441px) {
+    .main_page{
+        .page-1, .page-2, .page-3{
+            .page1-para, .page2-para, .page3-para{
+                margin:5em 0 3em 4em;
+            }
+            .para1, .para2, .para3{
+                width:60%;
+                margin:0 20em;
+            }
+        }
+    }
+    .foot{
+        .main_content{
+            .blue_back{
+                position: relative;
+                top:-2em;
+                left:-2em;
+                .common{
+                    .start, .tutor{
+                        width:15em;
+                    }
+                }
+            }
+            .help{
+                margin:5em 6em;
+                .all_links{
+                    display: flex;
+                    justify-content: space-around;
+                }
+            }
+            hr{
+                width:90vw;
+                margin:0 0 0 -32em;
+            }
+        }
+    }
+}
+
+@media (min-width:790px) and (max-width:1030px) {
+    .main_page{
+        .page-1, .page-2, .page-3{
+            .page1-para, .page2-para, .page3-para{
+                margin:5em 0 3em 0;
+            }
+            .para1, .para2, .para3{
+                width:80%;
+                margin:0 5em;
+                .header{
+                    margin:-.8em 0;
+                    h1{
+                        .pm{
+                            display: flex;
+                            flex-direction: row;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .foot{
+        .main_content{
+            .blue_back{
+                width:90vw;
+                .common{
+                    .start{
+                        margin:0 0 0 -3em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:430px) and (max-width:780px) {
+    .main_page{
+        .page-1, .page-2, .page-3{
+            display: flex;
+            flex-direction: column;
+            .para1, .para2, .para3{
+                width:100%;
+                margin:0 1em;
+                .header{
+                    .pm{
+                        display: flex;
+                        flex-direction: row;
+                    }
+                }
+            }
+        }
+    }
+    .foot{
+        .main_content{
+            .blue_back{
+                display: flex;
+                flex-direction: column;
+                width:90vw;
+                h1{
+                    position: relative;
+                    right: -3em;
+                }
+                .common{
+                    width:90vw;
+                    margin:.5em -4.5em;
+                    .start{
+                        position: relative;
+                        left:7em;
+                        width:30%;
+                        height: 3em;
+                    }
+                    .tutor{
+                        position: relative;
+                        right:-7em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:380px) and (max-width:429px) {
+    .z-index{
+        .navbar{
+            .nav-img{
+                img{
+                    width:25vw;
+                }
+            }
+        }
+    }
+    .main_page{
+        .page-1, .page-2, .page-3{
+            .page1-para, .page2-para, .page3-para{
+                text-align: left;
+                margin:0 0 0 1em
+            }
+            display: flex;
+            flex-direction: column;
+            .para1, .para2, .para3{
+                width:100%;
+                margin:0 1em;
+                .header{
+                    .pm{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+    .images{
+        height: 25em;
+        .image{
+            display: grid;
+            grid-template-columns: 40% 40%;
+            .six_image{
+                width:75%;
+                height: 5vw;;
+                margin: 0;
+            }
+        }
+    }
+    .foot{
+       .main_content{
+           .blue_back{
+               border-radius: 10em;
+               width:100vw;
+               padding:-.5em 0 0 0;
+                h1{
+                    margin:0 0 0 .5em;
+                    white-space: nowrap;
+                }
+                .common{
+                    display: flex;
+                    flex-direction: column;
+                    .start{
+                        position: relative;
+                        top:4em;
+                        left:-12em;
+                        width:100%
+                    }
+                    .tutor{
+                        position: relative;
+                        // top:4em;
+                        left:3em;
+                        width:14em;
+                        margin: .5em 0 0 -6em;
+                    }
+                }
+            }
+            .help{
+                margin:0 0 15em 0;
+                .all_links{
+                    img{
+                        margin:0 0 0 13em;
+                    }
+                    .join{
+                        white-space: nowrap;
+                        position: relative;
+                        right:-7em;
+                    }
+                    .help_link{
+                        h2{
+                            white-space: nowrap;
+                        }
+                        position: relative;
+                        right:14em;
+                        top:13em;
+                        ul{
+                            a{
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+                    .social{
+                        h2{
+                            white-space: nowrap;
+                        }
+                        width:80%;
+                        position: relative;
+                        right:12em;
+                        top:13em;
+                    }
+                }
+            }
+        }
+    }
+    .base{
+        display: flex;
+        flex-direction: column;
+        .right{
+            // margin:0 0 0 -9em;
+            width:53%;
+        }
+        .left{
+            white-space: nowrap;
+            ul{
+                li{
+                    padding:0 -2em;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:326px) and (max-width:379px) {
+    .z-index{
+        .navbar{
+            .nav-img{
+                img{
+                    width:25vw;
+                }
+            }
+        }
+    }
+    .main_page{
+        .page-1, .page-2, .page-3{
+            .page1-para, .page2-para, .page3-para{
+                text-align: left;
+                margin:0 0 0 1em
+            }
+            display: flex;
+            flex-direction: column;
+            .para1, .para2, .para3{
+                width:100%;
+                margin:0 1em;
+                .header{
+                    .pm{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+    .images{
+        .image{
+            display: grid;
+            grid-template-columns: 42% 42%;
+            margin:1em 0 0 2.5em;
+            .six_image{
+                width:70%;
+                height:50%;
+            }
+        }
+    }
+    .foot{
+        margin:12em 0 -2em 0;
+        .main_content{
+            .blue_back{
+                border-radius: 6em;
+                width:100vw;
+                h1{
+                    white-space: nowrap;
+                }
+                .common{
+                    position: relative;
+                    left:5em;
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    .start{
+                        position: relative;
+                        top:3em;
+                        left:-12em;
+                        width:103%;
+                        margin:1em 0;
+                    }
+                    .tutor{
+                        position: relative;
+                        top:2em;
+                        left:-6em;
+                        width:14em;
+                        margin: .5em 0 0 -6em;
+                    }
+                }
+            }
+            .help{
+                .all_links{
+                    display: grid;
+                    grid-template-columns: 40% 40%;
+                    grid-template-rows: 33% 33%;;
+                }
+            }
+        }
+    }
+    .base{
+        display: flex;
+        flex-direction: column;
+        .right{
+            white-space: nowrap;
+            width:53%;
+        }
+        .left{
+            white-space: nowrap;
+            ul{
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+        }
+    }
+}
+
+@media (min-width:0) and (max-width:325px) {
+    .z-index{
+        .navbar{
+            .nav-img{
+                img{
+                    width:25vw;
+                }
+            }
+        }
+    }
+    .main_page{
+        .page-1, .page-2, .page-3{
+            .page1-para, .page2-para, .page3-para{
+                text-align: left;
+                margin:0 0 0 1em
+            }
+            display: flex;
+            flex-direction: column;
+            .para1, .para2, .para3{
+                width:100%;
+                margin:0 1em;
+                .header{
+                    .pm{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+    .images{
+        .image{
+            display: grid;
+            grid-template-columns: 42% 42%;
+            margin:1em 0 0 2.5em;
+            .six_image{
+                width:70%;
+                height:50%;
+            }
+        }
+    }
+    .foot{
+        margin:12em 0 -2em 0;
+        .main_content{
+            .blue_back{
+                border-radius: 6em;
+                width:100vw;
+                h1{
+                    white-space: nowrap;
+                    margin:0 0 0 -.5em;
+                }
+                .common{
+                    display: flex;
+                    flex-direction: column;
+                    // position: relative;
+                    top:-.5em;
+                    right:-6em;
+                        .start{
+                        position: relative;
+                        top:2em;
+                        left:-7em;
+                        margin:1em 0;
+                        width:103%;
+                    }
+                    .tutor{
+                        position: relative;
+                        top:1em;
+                        left:-1em;
+                        width:14em;
+                        margin: .5em 0 0 -6em;
+                    }
+                }
+            }
+            .help{
+                .all_links{
+                    display: grid;
+                    grid-template-columns: 40% 40%;
+                    grid-template-rows: 33% 33%;;
+                }
+            }
+        }
+    }
+    .base{
+        display: flex;
+        flex-direction: column;
+        .right{
+            white-space: nowrap;
+            width:53%;
+        }
+        .left{
+            white-space: nowrap;
+            ul{
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+        }
+    }
+}
